@@ -1,0 +1,30 @@
+#nav-bar{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);         
+    -webkit-backdrop-filter: blur(10px);  
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    
+
+    .btn-purple {
+        background-color: purple;
+        color: white;
+    }
+
+    .nav-link{
+        color: white;
+    }
+
+    .btn-purple:hover {
+        background-color: #15173D;
+    }
+
+    .nav-logo {
+        height: 60px;      
+        width: auto;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+}

@@ -1,0 +1,32 @@
+main {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+form > div {
+    margin-bottom: 16px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #15173D;
+}

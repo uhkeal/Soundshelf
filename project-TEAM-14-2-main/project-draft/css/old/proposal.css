@@ -1,0 +1,22 @@
+body{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1620121692029-d088224ddc74?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    color: antiquewhite;
+    font-family: 'Migumono', monospace;
+    max-width: 600px;
+    
+}
+
+a {
+  color: white;
+}
+
+@font-face {
+  font-family: 'Migumono';
+  src: url('fonts/migumono-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

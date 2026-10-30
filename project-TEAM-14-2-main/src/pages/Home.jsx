@@ -1,0 +1,110 @@
+import { Link } from "react-router";
+
+
+function Home() {
+    return (
+        <>
+            <div className="homepage">
+                <main>
+                    <div className="content">
+
+                        <div className="text-center mb-5">
+                            <h1 className="display-4 fw-bold">
+                                Discover New Music
+                            </h1>
+
+                            <p className="lead">
+                                Explore, upload, and share music beyond mainstream algorithms.
+                            </p>
+
+                            <Link
+                                to="/search"
+                                className="btn btn-purple btn-lg mt-3"
+                            >
+                                Start Exploring
+                            </Link>
+                        </div>
+
+                        <div className="container">
+                            <h2 className="visually-hidden">
+                                SoundShelf Features
+                            </h2>
+                            <div className="row text-center mb-5">
+
+                                <div className="col-md-4">
+                                    <h3>
+                                        <svg
+                                            className="homepage-icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                d="M24,22.586l-6.262-6.262a10.016,10.016,0,1,0-1.414,1.414L22.586,24ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+
+                                        Smart Search
+                                    </h3>
+
+                                    <p>
+                                        Find songs using tags like genre, mood, and style,
+                                        no more generic recommendations.
+                                    </p>
+                                </div>
+
+                                <div className="col-md-4">
+                                    <h3>
+                                        <svg className="homepage-icon" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                                        <path d="m24,24h-6.5v-6c0-1.105.895-2,2-2h2.5c1.105,0,2,.895,2,2v6ZM9.345,7.564l.48.362,2.183-1.687,2.173,1.68.504-.349-.884-2.686,2.197-1.273v-.611h-2.883l-.784-3h-.648l-.784,3h-2.899v.615l2.212,1.231-.869,2.717Zm-4.845,5.436h-2.5c-1.105,0-2,.895-2,2v9h6.5v-9c0-1.105-.895-2-2-2Zm9-4h-3c-1.105,0-2,.895-2,2v13h7v-13c0-1.105-.895-2-2-2Z" fill="currentColor"/>
+                                        </svg>
+                                        Rankings
+                                    </h3>
+
+                                    <p>
+                                        View global and community-driven rankings to discover
+                                        what’s trending right now.
+                                    </p>
+                                </div>
+
+                                <div className="col-md-4">
+                                    <h3>
+                                        <svg className="homepage-icon" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24"><path d="M9.878,18.122a3,3,0,0,0,4.244,0l3.211-3.211A1,1,0,0,0,15.919,13.5l-2.926,2.927L13,1a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1l-.009,15.408L8.081,13.5a1,1,0,0,0-1.414,1.415Z" fill="currentColor"/><path d="M23,16h0a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V17a1,1,0,0,0-1-1H1a1,1,0,0,0-1,1v4a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V17A1,1,0,0,0,23,16Z" fill="currentColor"/></svg>
+                                        Upload & Share
+                                    </h3>
+
+                                    <p>
+                                        Upload MP3s or embed YouTube tracks to share your
+                                        music with others.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className="text-center mb-5">
+                            <h2>Start Building Your Sound</h2>
+
+                            <p>
+                                Join a community focused on real music discovery.
+                            </p>
+                                <Link className="nav-link" to="/upload"
+                                className="btn btn-purple btn-lg mt-3"
+                                >
+                                    Upload Your First Track
+                                </Link>
+                        </div>
+
+                    </div>
+                </main>
+
+                <footer>
+                    <p>&copy; 2026 SoundShelf</p>
+                </footer>
+
+            </div>
+        </>
+    );
+}
+
+export default Home;

@@ -1,0 +1,19 @@
+body{
+    background-image: url("../assets/images/photo-1544294299-699898e428c7.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.content div{
+    color: white;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.homepage-icon{
+    height: 40px;
+    color: white; 
+}
